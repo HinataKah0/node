@@ -3273,6 +3273,8 @@ changes:
   * `uniqueHeaders` {Array} A list of response headers that should be sent only
     once. If the header's value is an array, the items will be joined
     using `; `.
+  * `highWaterMark` {number} Optionally overrides the default `highWaterMark`
+    value of both `IncomingMessage` and `ServerResponse`.
 
 * `requestListener` {Function}
 
